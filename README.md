@@ -2,6 +2,7 @@
 Parse MTA .map file format runtime for SA-MP.
 
 - Currently support only Objects and Vehicles.
+- Support Unloading.
 
 # Includes
 
