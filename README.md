@@ -6,8 +6,8 @@ Parse MTA .map file format runtime for SA-MP.
 
 # Includes
 
-[FileManager](https://github.com/JaTochNietDan/SA-MP-FileManager)
+[FileManager (Needed for use - Plugin)](https://github.com/JaTochNietDan/SA-MP-FileManager) 
 
-[Streamer Plugin](https://github.com/samp-incognito/samp-streamer-plugin)
+[Streamer Plugin (Needed for use - Plugin)](https://github.com/samp-incognito/samp-streamer-plugin)
 
 [Y_INI](https://github.com/pawn-lang/YSI-Includes)
