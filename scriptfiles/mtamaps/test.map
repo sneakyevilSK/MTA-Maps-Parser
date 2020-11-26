@@ -1,0 +1,4 @@
+<map edf:definitions="editor_main">
+    <object id="object (cs_roadbridge04) (1)" interior="0" collisions="true" alpha="255" doublesided="false" model="18450" scale="1" dimension="0" MSTalpha="255" MSTselected="false" posX="2127.3999" posY="2881.6001" posZ="17.77" rotX="0" rotY="12.25" rotZ="270"></object>
+    <vehicle id="vehicle (Banshee) (1)" paintjob="3" interior="0" alpha="255" model="429" plate="LOBI A7P" dimension="0" MSTalpha="255" posX="2036.5" posY="1344.59998" posZ="10.6" rotX="0" rotY="0" rotZ="90" color="139,0,0,19,7,255,0,0,0,0,0,0"></vehicle>
+</map>
