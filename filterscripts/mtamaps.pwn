@@ -111,7 +111,7 @@ public OnFilterScriptInit()
         	new cVehicleColor[48];
          	while(fread(fMap, cMapBuffer))
 			{
-				if (strfind(cMapBuffer, "id=\"object") >= 0)
+				if (strfind(cMapBuffer, "<object") >= 0)
     			{
    					new iObjectModel = strval(ParseMapString(cMapBuffer, "model=\""));
         			new Float:fObjectPosX = floatstr(ParseMapString(cMapBuffer, "posX=\""));
@@ -125,7 +125,7 @@ public OnFilterScriptInit()
 					if (!iObjectIDStart) iObjectIDStart = iObjectID;
 					iObjects++;
 				}
-		 		else if (strfind(cMapBuffer, "id=\"vehicle") >= 0)
+		 		else if (strfind(cMapBuffer, "<vehicle") >= 0)
 				{
 					new iVehicleModel = strval(ParseMapString(cMapBuffer, "model=\""));
  					new Float:fVehiclePosX = floatstr(ParseMapString(cMapBuffer, "posX=\""));
